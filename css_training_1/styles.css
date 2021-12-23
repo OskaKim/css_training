@@ -1,6 +1,12 @@
 .box {
     background: blue;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 2px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    color: white;
+    font-size: 100px;
+}
+
+.box:nth-child(3) {
+    margin-left: 20px;
 }
