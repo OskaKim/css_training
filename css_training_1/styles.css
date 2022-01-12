@@ -1,18 +1,27 @@
 .wrapper {
     display: flex;
-    justify-content: space-around;
-    height: 100vh;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: row-reverse;
+    width: 100vh;
+    height: 10vh;
 }
 
 .child {
-    width: 200px;
-    height: 200px;
+    flex-basis: 10%;
     background: peru;
     color: white;
     font-size: 60px;
     text-align: center;
+    justify-items: center;
 }
 
 .child:nth-child(2) {
-    order: 1;
+    background: black;
+    flex-grow: 1;
+}
+
+.child:nth-child(3) {
+    background: blue;
+    flex-grow: 5;
 }
