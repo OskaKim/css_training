@@ -1,0 +1,46 @@
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+    grid-template-rows: 1fr 3fr 4fr;
+    background-color: #F14011;
+    border-color: white;
+}
+
+.header {
+    background-color: black;
+}
+
+.header>ul>h3 {
+    color: white;
+}
+
+.bad {
+    font-size: 180pt;
+    font-weight: bold;
+    grid-column: 1 / span 2;
+}
+
+.religion {
+    font-size: 180pt;
+    font-weight: bold;
+    grid-column: 1 / span 3;
+}
+
+.bad,
+.bad-next,
+.religion {
+    border-top: 10px solid white;
+}
+
+.bad-next {
+    border-left: 10px solid white;
+}
+
+.info {
+    color: white;
+}
+
+body {
+    background-color: #F14011;
+    border: 10px solid white;
+}
